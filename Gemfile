@@ -1,6 +1,13 @@
 source 'https://rubygems.org'
 
 
+# devise
+gem 'devise'
+gem 'devise-bootstrap-views'
+gem 'devise-i18n' 
+gem 'devise-i18n-views'
+gem 'bootstrap-sass', '~> 3.3.6'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.2.0'
 gem 'activesupport', '5.2.0'
@@ -49,3 +56,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
